@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	background-color: palevioletred;
+	position:fixed;
+	width: 100vw;
+}
+#ha{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+h1{
+	padding-left: 40vw;
+	color: white;
+}
+#personal{
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	
+}
+body{
+	background-color: palevioletred;
+	
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	
+}
+li{
+	padding: 10px;
+	border: 2px solid blue;
+	border-radius: 40px;
+	background: pink;
+}
+
+li:hover{
+	background-color: aquamarine;
+}
+h2 {
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+}
+article{
+	padding-top: 300px;
+}
+
